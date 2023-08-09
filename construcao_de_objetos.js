@@ -27,7 +27,6 @@ let cliente = new Pessoa('Wesley', 'Damazio', 18996572911);
 console.log(cliente.nome);
 console.log(cliente.nome_completo());
 
-alterar_nome(Leonice);
+cliente.alterar_nome("Leonice");
 
-
-
+console.log(cliente.nome_completo());
