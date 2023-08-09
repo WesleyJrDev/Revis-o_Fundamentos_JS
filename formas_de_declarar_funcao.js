@@ -4,7 +4,7 @@ function dizer_ola1(){
     console.log("Olá1");
 };
 
-// function expression, quando uma variavel é declarada com uma função.
+// function expression, quando uma variavel é declarada com uma função como.
 
 let dizer_ola2 = function(){
     console.log("Olá2");
