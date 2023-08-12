@@ -13,3 +13,23 @@ if ('telefone' in client){
 }else{
     console.log("Sem cadastro de telefone")
 };
+
+for (key in client){
+
+    console.log(key + ": " + client[key])
+
+}
+
+const zonas = {
+
+    1:'Fábrica',
+    4:'Escritório',
+    20:'Armazem',
+    3:'Loja',
+    
+
+};
+
+for (key in zonas){
+    console.log(key + ": " + zonas[key]);
+};
