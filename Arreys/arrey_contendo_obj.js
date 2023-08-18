@@ -5,4 +5,12 @@ let clientes = [
     {nome: 'lonera', sobrenome: 'nogueira', idade: 15},
 ];
 
-console.log(clientes[2].nome);
+// console.log(clientes[2].nome);
+
+// clientes.forEach(cliente => {
+//     console.log(`O cliente ${cliente.nome} ${cliente.sobrenome} tem ${cliente.idade} anos`)
+// });
+
+for( let i = 0; i <= clientes.length; i++){
+    console.log(`O cliente ${clientes[i].nome} ${clientes[i].sobrenome} tem ${clientes[i].idade} anos`);
+};
