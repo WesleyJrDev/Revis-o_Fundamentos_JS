@@ -1,0 +1,13 @@
+// Nessa forma ele considera o Arrey como um OBJETO
+
+let nomes = ['ana', 'joão', 'maira']
+
+console.log(typeof(nomes));
+
+// Uma maneira mais precisa é com o ISARREY
+
+if (Array.isArray(nomes)){
+    console.log('sim');
+}else{
+    console.log('não');
+};
